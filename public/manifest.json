@@ -1,5 +1,11 @@
 {
   "manifest_version":3,
   "name":"Word Count On WebPage",
-  "description":"Word Count On WebPage"
+  "description":"Word Count On WebPage",
+  "version":"1.0.0",
+  "action":{
+    "default_popup":"index.html",
+    "default_title":"Open"
+  },
+  "permissions":["scripting"]
 }
